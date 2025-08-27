@@ -1,0 +1,17 @@
+# Исключаем node_modules (Expo сам устанавливает зависимости)
+node_modules/
+
+# Исключаем git-папки
+.git/
+.gitignore
+
+# Исключаем локальные билды и временные файлы
+dist/
+build/
+*.log
+*.tmp
+*.bak
+
+# Исключаем assets, которые не нужны в сборке (если есть лишние)
+assets/large-dev-images/
+assets/raw-psd-files/
